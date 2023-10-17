@@ -17,7 +17,7 @@ def main():
         if user == 'stop':
             break
         rating = get_rating(user, control)
-        print(f"{user}'s rating is {rating}")
+        print(f"{user}'s {control} rating is {rating}")
 
 
 if __name__ == '__main__':
